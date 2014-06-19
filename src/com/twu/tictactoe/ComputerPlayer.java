@@ -46,19 +46,36 @@ public class ComputerPlayer implements Player {
     }
 
     private int findDiagonalWinningMove(String symbol) {
-
+        if(board.getSymbolAt(1).equals(board.getSymbolAt(5)) && symbol.equals(board.getSymbolAt(1)) && board.isSpotOpen(9)){
+            return 9;
+        }
+        else if(board.getSymbolAt(5).equals(board.getSymbolAt(9)) && symbol.equals(board.getSymbolAt(5)) && board.isSpotOpen(1)){
+            return 1;
+        }
+        else if(board.getSymbolAt(1).equals(board.getSymbolAt(9)) && symbol.equals(board.getSymbolAt(1)) && board.isSpotOpen(5)){
+            return 5;
+        }
+        else if(board.getSymbolAt(3).equals(board.getSymbolAt(5)) && symbol.equals(board.getSymbolAt(3)) && board.isSpotOpen(7)){
+            return 7;
+        }
+        else if(board.getSymbolAt(5).equals(board.getSymbolAt(7)) && symbol.equals(board.getSymbolAt(5)) && board.isSpotOpen(3)){
+            return 3;
+        }
+        else if(board.getSymbolAt(3).equals(board.getSymbolAt(7)) && symbol.equals(board.getSymbolAt(3)) && board.isSpotOpen(5)){
+            return 5;
+        }
         return 0;
     }
 
     private int findVerticalWinningMove(String symbol) {
         for (int i = 1; i <= 3; i++) {
-            if (board.getSymbolAt(i).equals(board.getSymbolAt(i + 3)) && symbol.equals(board.getSymbolAt(i))){
+            if (board.getSymbolAt(i).equals(board.getSymbolAt(i + 3)) && symbol.equals(board.getSymbolAt(i)) && board.isSpotOpen(i+6)){
                 return i+6;
             }
-            else if(board.getSymbolAt(i).equals(board.getSymbolAt(i + 6)) && symbol.equals(board.getSymbolAt(i))){
+            else if(board.getSymbolAt(i).equals(board.getSymbolAt(i + 6)) && symbol.equals(board.getSymbolAt(i)) && board.isSpotOpen(i+3)){
                 return i+3;
             }
-            else if(board.getSymbolAt(i+3).equals(board.getSymbolAt(i+6)) && symbol.equals(board.getSymbolAt(i+3))){
+            else if(board.getSymbolAt(i+3).equals(board.getSymbolAt(i+6)) && symbol.equals(board.getSymbolAt(i+3))&& board.isSpotOpen(i)){
                 return i;
             }
         }
@@ -68,13 +85,13 @@ public class ComputerPlayer implements Player {
     public int findHorizontalWinningMove(String symbol) {
         int rowOffSet = 0;
         for (int i = 1; i<=9; i+=3) {
-            if (board.getSymbolAt(i).equals(board.getSymbolAt(i + 1)) && symbol.equals(board.getSymbolAt(i))){
+            if (board.getSymbolAt(i).equals(board.getSymbolAt(i + 1)) && symbol.equals(board.getSymbolAt(i))&& board.isSpotOpen(i+2)){
                 return i+2;
             }
-            else if(board.getSymbolAt(i).equals(board.getSymbolAt(i + 2)) && symbol.equals(board.getSymbolAt(i))){
+            else if(board.getSymbolAt(i).equals(board.getSymbolAt(i + 2)) && symbol.equals(board.getSymbolAt(i))&& board.isSpotOpen(i+1)){
                 return i+1;
             }
-            else if(board.getSymbolAt(i+1).equals(board.getSymbolAt(i+2)) && symbol.equals(board.getSymbolAt(i+1))){
+            else if(board.getSymbolAt(i+1).equals(board.getSymbolAt(i+2)) && symbol.equals(board.getSymbolAt(i+1))&& board.isSpotOpen(i)){
                 return i;
             }
 

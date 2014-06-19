@@ -77,4 +77,5 @@ public class TestComputerPlayerMoves {
         int move = computerPlayer.makeMove();
         assertThat(move, is(9));
     }
+
 }

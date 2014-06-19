@@ -77,8 +77,8 @@
       <file leaf-file-name="ComputerPlayer.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/twu/tictactoe/ComputerPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1380">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="1635">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -118,8 +118,8 @@
       <file leaf-file-name="TestComputerPlayerMoves.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/com/twu/tictactoe/TestComputerPlayerMoves.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6882217" vertical-offset="857" max-vertical-offset="1290">
-              <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.82678986" vertical-offset="857" max-vertical-offset="1305">
+              <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,11 +157,11 @@
         <option value="$PROJECT_DIR$/test/com/twu/tictactoe/TestTicTacToeApp.java" />
         <option value="$PROJECT_DIR$/test/com/twu/tictactoe/TestBoard.java" />
         <option value="$PROJECT_DIR$/src/com/twu/tictactoe/Player.java" />
-        <option value="$PROJECT_DIR$/src/com/twu/tictactoe/HumanPlayer.java" />
         <option value="$PROJECT_DIR$/src/com/twu/tictactoe/TicTacToeApp.java" />
         <option value="$PROJECT_DIR$/src/com/twu/tictactoe/Board.java" />
-        <option value="$PROJECT_DIR$/test/com/twu/tictactoe/TestComputerPlayerMoves.java" />
         <option value="$PROJECT_DIR$/src/com/twu/tictactoe/ComputerPlayer.java" />
+        <option value="$PROJECT_DIR$/src/com/twu/tictactoe/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/test/com/twu/tictactoe/TestComputerPlayerMoves.java" />
       </list>
     </option>
   </component>
@@ -295,35 +295,7 @@
       <recent name="com.twu.tictactoe" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveDiagonal">
-    <configuration default="false" name="TestBoard and 3 more" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="TicTacToe" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="pattern" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns>
-        <pattern testClass="com.twu.tictactoe.TestBoard" />
-        <pattern testClass="com.twu.tictactoe.TestComputerPlayerMoves" />
-        <pattern testClass="com.twu.tictactoe.TestPlayerMoves" />
-        <pattern testClass="com.twu.tictactoe.TestTicTacToeApp" />
-      </patterns>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestComputerPlayerMoves">
     <configuration default="false" name="TestComputerPlayerMoves.shouldComputerPlayerGenerateMoveToOpenSpace" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -422,6 +394,34 @@
       <option name="MAIN_CLASS_NAME" value="com.twu.tictactoe.TestComputerPlayerMoves" />
       <option name="METHOD_NAME" value="shouldComputerPlayerGenerateWinningMoveDiagonal" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestComputerPlayerMoves" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.twu.tictactoe.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TicTacToe" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.twu.tictactoe" />
+      <option name="MAIN_CLASS_NAME" value="com.twu.tictactoe.TestComputerPlayerMoves" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -650,19 +650,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.TestBoard and 3 more" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateMoveToOpenSpace" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMove" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveVertical" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveDiagonal" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateMoveToOpenSpace" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMove" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveVertical" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveDiagonal" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveDiagonal" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveVertical" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMove" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateMoveToOpenSpace" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestBoard and 3 more" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveDiagonal" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMoveVertical" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateWinningMove" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestComputerPlayerMoves.shouldComputerPlayerGenerateMoveToOpenSpace" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -679,12 +679,12 @@
       <changelist id="b58751a2-d3d3-44f9-b186-775b3ad12c5c" name="Default" comment="" />
       <created>1403116047610</created>
       <updated>1403116047610</updated>
-      <workItem from="1403116048851" duration="14114000" />
+      <workItem from="1403116048851" duration="15060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14114000" />
+    <option name="totallyTimeSpent" value="15060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="21" y="22" width="1400" height="790" extended-state="0" />
@@ -780,16 +780,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/twu/tictactoe/HumanPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="585">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/tictactoe/TicTacToeApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="557" max-vertical-offset="990">
@@ -819,18 +809,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/twu/tictactoe/HumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="585">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/twu/tictactoe/ComputerPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="1380">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="632" max-vertical-offset="1635">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/twu/tictactoe/TestComputerPlayerMoves.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6882217" vertical-offset="857" max-vertical-offset="1290">
-          <caret line="77" column="29" selection-start-line="77" selection-start-column="29" selection-end-line="77" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.82678986" vertical-offset="857" max-vertical-offset="1305">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
