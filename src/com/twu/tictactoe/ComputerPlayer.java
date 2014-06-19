@@ -33,19 +33,23 @@ public class ComputerPlayer implements Player {
     }
 
     public int findWinningMove(){
-        int winningMove = findHorizontalWinningMove(symbol);
+        int winningMove = findHorizontalWinningMove();
         if(winningMove>0){
             return winningMove;
         }
-        winningMove = findVerticalWinningMove(symbol);
+        winningMove = findVerticalWinningMove();
         if(winningMove>0){
             return winningMove;
         }
-        winningMove = findDiagonalWinningMove(symbol);
+        winningMove = findDiagonalWinningMove();
+        if(winningMove>0){
+            return winningMove;
+        }
         return 0;
     }
 
-    private int findDiagonalWinningMove(String symbol) {
+    private int findDiagonalWinningMove() {
+
         if(board.getSymbolAt(1).equals(board.getSymbolAt(5)) && symbol.equals(board.getSymbolAt(1)) && board.isSpotOpen(9)){
             return 9;
         }
@@ -67,7 +71,7 @@ public class ComputerPlayer implements Player {
         return 0;
     }
 
-    private int findVerticalWinningMove(String symbol) {
+    private int findVerticalWinningMove() {
         for (int i = 1; i <= 3; i++) {
             if (board.getSymbolAt(i).equals(board.getSymbolAt(i + 3)) && symbol.equals(board.getSymbolAt(i)) && board.isSpotOpen(i+6)){
                 return i+6;
@@ -82,7 +86,7 @@ public class ComputerPlayer implements Player {
         return 0;
     }
 
-    public int findHorizontalWinningMove(String symbol) {
+    public int findHorizontalWinningMove() {
         int rowOffSet = 0;
         for (int i = 1; i<=9; i+=3) {
             if (board.getSymbolAt(i).equals(board.getSymbolAt(i + 1)) && symbol.equals(board.getSymbolAt(i))&& board.isSpotOpen(i+2)){

@@ -77,7 +77,7 @@ public class TestComputerPlayerMoves {
         int move = computerPlayer.makeMove();
         assertThat(move, is(9));
     }
-    
+
     @Test
     public void shouldComputerPlayerBlockOpponentWinningMoveHorizontal(){
         Board board = new Board(mock(PrintStream.class));
